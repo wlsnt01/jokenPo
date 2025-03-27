@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./jokenPô.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <title>Pedra, Papel e Tesoura</title>
+
+</head>
+
+<body>
+    <div class="container">
+        
+        <h1 class="shine-title">JokenPô</h1>
+        
+        <button id="rock" onclick="playUser('rock')">&#x1F44A;</button>
+        <button id="paper" onclick="playUser('paper')">&#x1f590;</button>
+        <button id="scissors" onclick="playUser('scissors')">&#X270C;</button>
+        
+        <p class="score"></p>
+        <p class="shine-player"> Sua pontuação: <span class="score-player">0</span></p>
+        <p class="shine-machine"> Pontuação da máquina: <span class="score-machine">0</span></p>
+    
+    </div>
+
+    <script src="./jokenPô.js"></script>
+</body>
+
+</html>
